@@ -1,0 +1,10 @@
+<!ELEMENT emails (email*)>
+<!ELEMENT email (date,header,subject,body)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT header (from,to)>
+<!ELEMENT from (name,address)>
+<!ELEMENT to (name,addresss)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT body (#PCDATA)>

@@ -1,0 +1,70 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="emails">
+        <xsd:complexType>
+            <xsd:sequence maxOccurs="unbounded">
+                <xsd:element name="email">
+                    <xsd:complexType mixed="true">
+                        <xsd:sequence>
+                            <xsd:element name="date" type="xsd:date">
+                            </xsd:element>
+                            <xsd:element name="header">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="from">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="name"></xsd:element>
+                                                    <xsd:element name="address"></xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="to" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="name"></xsd:element>
+                                                    <xsd:element name="address">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:string">
+                                                                <xsd:pattern value="[a-zA-z0-9]+@[a-zA-z0-9\.]+"></xsd:pattern>
+                                                            </xsd:restriction>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="encoding" use="required">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:pattern value="UTF-8"></xsd:pattern>
+                                                <xsd:pattern value="UTF-16"></xsd:pattern>
+                                                <xsd:pattern value="ISO-8859-1"></xsd:pattern>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:attribute>
+                                    <xsd:attribute name="client" use="required">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:string"></xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:attribute>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="subject">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"></xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="body">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"></xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="idEmail" type="xsd:ID"></xsd:attribute>
+                        <xsd:attribute name="idReEmail" type="xsd:IDREF"></xsd:attribute>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

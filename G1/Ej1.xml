@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<autos>
+    <modelos>
+        <suran>
+            <marca>volkswagen</marca>
+            <año>2006</año>
+            <motor>1.6L</motor>
+            <tipo_combustible>nafta</tipo_combustible>
+        </suran>
+        <corolla>
+            <marca>Toyota</marca>
+            <año>2000</año>
+            <motor>1.8L</motor>
+            <tipo_combustible>nafta</tipo_combustible>
+        </corolla>
+    </modelos>
+</autos>

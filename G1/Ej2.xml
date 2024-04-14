@@ -1,0 +1,147 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE emails SYSTEM "../G2/Ej2.dtd">
+<emails>
+    <email idEmail="a">
+        <date>"13/10/02"</date>
+        <header encoding="UTF-8" client="pepqeee" >
+            <from>
+                <name>"Juan Obrador"</name>
+                <address>jObrador@gmail.com</address>
+            </from>
+            <to>
+                <name>"Pedro Picapiedra"</name>
+                <address>pepePiedritas123@hotmail.com</address>
+            </to>
+            <to>
+                <name>Gustavo</name>
+                <address>gyoshiza@itba.edu.ar</address>
+                </to>
+        </header>
+        HNB67KUH89
+        <subject >"Aguante los redondos"</subject>
+        <body>""¿Era todo?", pregunté
+            (Soy un iluso)
+            No nos dimos nada más
+            Solo un buen gesto
+            Mordí el anzuelo, una vez más
+            (Siempre un iluso)
+            Nuestra estrella, se agotó
+            Y era mi lujo
+            Ella fue por esa vez
+            Mi héroe vivo
+            Bah, fue mi único héroe
+            En este lío
+            La más linda del amor
+            Que un tonto ha visto soñar
+            Metió, metió mi rock and roll bajo este pulso"</body>
+    </email>
+    <email idReEmail="a">
+        <date>"12/12/12"</date>
+        <header encoding="UTF-8" client="peweee">
+            <from>
+                <name>"Papa Noel"</name>
+                <address>"renitos123@gmail.com"</address>
+            </from>
+            <to>
+                <name>"Patricio Estrella"</name>
+                <address>patriEstrella@outlook.com</address>
+            </to>
+        </header>
+        <subject>"No te va allegar el regalo"</subject>
+        <body>"Te portaste mal"</body>
+    </email>
+    <email idEmail="b">
+        <date>"29/6/04"</date>
+        <header encoding="UTF-8" client="eeee">
+            <from>
+                <name>"Luana Persico"</name>
+                <address>luanitaPepsi@gmail.com</address>
+            </from>
+            <to>
+                <name>"Franco Frances"</name>
+                <address>Ffrancia@yahoo.com.ar</address>
+            </to>
+        </header>
+        <subject>"Daft Punk"</subject>
+        <body>"Work it
+            Make it
+            Do it
+            Makes us
+            Harder
+            Better
+            Faster
+            Stronger
+            More than
+            Hour
+            Hour
+            Never
+            Ever
+            After
+            Work is
+            Over
+            Work it
+            Make it
+            Do it
+            Makes us
+            Harder
+            Better
+            Faster
+            Stronger
+            Work it harder, make it better
+            Do it faster, makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us
+            More than ever hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it
+            Do it faster, makes us
+            More than ever, hour after hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster, makes us strong
+            More than ever, hour after hour
+            Work is never over
+            Work it, make it better
+            Do it faster makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it, make it better
+            Do it faster makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it, make it better
+            Do it faster makes us stronger
+            More than ever, hour after hour
+            Work is never over
+            Work it harder
+            Do it faster
+            More than ever, hour
+            Work is never over
+            Work it harder, make it better
+            Do it faster makes us stronger
+            More than ever hour after hour
+            Work is never over"</body>
+    </email>
+</emails>

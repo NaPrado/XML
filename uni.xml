@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<universidad xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="uni.xsd">
+	<curso ID="XML">
+		<alumno ID="_100">
+			<nota>7</nota>
+		</alumno>
+		<alumno ID="_200">
+			<nota>3</nota>
+			<nota>5</nota>
+		</alumno>
+	</curso>
+	<curso ID="OOP">
+		<alumno ID="_200">
+			<nota>9</nota>
+		</alumno>
+		<alumno ID="_400">
+			<nota>3</nota>
+			<nota>2</nota>
+		</alumno>
+	</curso>
+	<alumno ID="_200">
+		<name>Salerno</name>
+	</alumno>
+	<alumno ID="_100">
+		<name>Ana</name>
+	</alumno>
+	<alumno ID="_400"/>
+</universidad>
