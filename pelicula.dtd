@@ -1,0 +1,12 @@
+<!ELEMENT pelicula (#PCDATA|titulo|estreno|actores|director)*>
+<!ATTLIST pelicula identif ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT estreno (#PCDATA)>
+<!ELEMENT actores (actor+)*>
+<!ELEMENT director (nombre,fechaNacimiento,salario)>
+<!ELEMENT actor (nombre,fechaNacimiento,salario,personaje)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+<!ELEMENT personaje (#PCDATA)>
+<!ATTLIST salario moneda CDATA #REQUIRED>

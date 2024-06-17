@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportingEngineRequest xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="paypal.xsd">
+ <runReportRequest>
+    <reportName>DailyActivityReport</reportName>
+ </runReportRequest>
+    <getResultsRequest>
+    <reportId>131a</reportId>
+ </getResultsRequest>
+</reportingEngineRequest>

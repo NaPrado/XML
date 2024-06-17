@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="reportingEngineRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="authRequest">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="user" type="xs:string"/>
+                            <xs:element name="vendor" type="xs:string"/>
+                            <xs:element name="partner" type="xs:string"/>
+                            <xs:element name="password" type="xs:string"/>
+                            <xs:element name="executor" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                    <xs:choice>
+                        <xs:element name="runReportRequest">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:choice>
+                                        <xs:element name="reportName" type="xs:string"/>
+                                        <xs:element name="templateName" type="xs:string"/>
+                                    </xs:choice>
+                                        <xs:element name="reportParam" type= "reportParamType" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element name="notificationRequired" type="xs:boolean" minOccurs="0"/>
+                                        <xs:element name="pageSize" type="xs:int" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="getResultsRequest">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:choice minOccurs="0">
+                                        <xs:element name="scheduleName" type="xs:string"/>
+                                        <xs:element name="templateName" type="xs:string"/>
+                                        <xs:element name="reportName" type="xs:string"/>
+                                        <xs:element name="searchName" type="xs:string"/>
+                                        <xs:element name="reportId" type="xs:string"/>
+                                    </xs:choice>
+                                    <xs:choice minOccurs="0">
+                                        <xs:sequence>
+                                            <xs:element name="startDate" type="xs:date"/>
+                                            <xs:element name="endDate" type="xs:date"/>
+                                        </xs:sequence>
+                                    </xs:choice>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="reportParamType">
+        <xs:sequence>
+            <xs:element name="paramName" type="xs:string"/>
+            <xs:element name="paramValue" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,5 @@
+/APML/Body/Profile/@name
+/APML/Body/Profile[@name="Home"]/*/*/Concept/@key
+/APML/Body/Profile/*/*/Concept/@key
+/APML/Body/Profile/ImplicitData/Sources/Source/@updated
+/APML/Body/Profile[count(ImplicitData/*)=0]/@name

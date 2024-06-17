@@ -1,0 +1,18 @@
+<!DOCTYPE pelicula SYSTEM "pelicula.dtd">
+<pelicula identif="peli001">
+    <titulo>Iron Man</titulo>
+    <estreno>2008-04-30</estreno>
+    <actores>
+        <actor>
+            <nombre>Robert Downey Jr.</nombre>
+            <fechaNacimiento>1965-04-04</fechaNacimiento>
+            <salario moneda="USD">500000</salario>
+            <personaje>Ironman</personaje>
+        </actor>
+    </actores>
+    <director>
+        <nombre>Jon Favreau</nombre>
+        <fechaNacimiento>1966-10-19</fechaNacimiento>
+        <salario moneda="USD">115000000</salario>
+    </director>
+</pelicula>

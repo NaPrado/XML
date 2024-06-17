@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flight code="LA4554" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./Fligth.xsd">
+    <departure>2010-06-01</departure>
+    <passengers>
+        <person id="ARG1">
+            <name>Gustavo Yoshizaki</name>
+            <seat>
+                <number>6</number>
+                <position>F</position >
+            </seat>
+            <telephone>15-5555-5555</telephone>
+        </person>
+        <person id="ARG2">
+            <name>Silvia Gomez</name>
+            <seat>
+                <number>30</number>
+                <position>A</position>
+            </seat>
+            <telephone>15-5555-4444</telephone>
+        </person>
+        <person id="ARG3">
+            <name>Baños Gabriel</name>
+            <seat>
+                <number>17</number>
+                <position>B</position>
+            </seat>
+            <telephone>5555-3333</telephone>
+            <specialFood>Only vegetables</specialFood>
+        </person>
+    </passengers>
+</flight>

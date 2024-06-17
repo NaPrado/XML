@@ -1,0 +1,24 @@
+<!DOCTYPE pelicula SYSTEM "pelicula.dtd">
+<pelicula identif="peli001">
+    <titulo>Batman, La Pelicula</titulo>
+    <estreno>1966-07-30</estreno>
+    <director>
+        <nombre>Leslie H.Martinson</nombre>
+        <fechaNacimiento>1915-01-16</fechaNacimiento>
+        <salario moneda="USD">200000.2</salario>
+    </director>
+    <actores>
+        <actor>
+            <nombre>Adam West</nombre>
+            <fechaNacimiento>1928-09-19</fechaNacimiento>
+            <salario moneda="USD">100000</salario> 
+            <personaje>Batman</personaje>
+        </actor>
+        <actor>
+            <nombre>Burt Ward</nombre>
+            <fechaNacimiento>1945-07-06</fechaNacimiento>
+            <salario moneda="USD">50000.75</salario>
+            <personaje>Robin</personaje>
+        </actor>
+    </actores>
+</pelicula>

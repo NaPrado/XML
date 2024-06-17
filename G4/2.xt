@@ -1,0 +1,22 @@
+/APML/Body/Profile/*/Concepts/Concept/attribute::*[contains(.,"business")]/..
+
+/APML/Body/Profile/*/*/Concept[@value>=0.95]
+
+/APML/Body/Profile[
+    count(*/*/Concept) 
+    < 
+    (
+    count(//APML/Body/Profile/*/Concepts/Concept)
+    div 
+    count(//APML/Body/Profile)
+    )
+]/@name
+
+/APML/Body/Profile/*/*/Concept/@key[ starts-with(.,"a") or starts-with(.,"e") or starts-with(.,"i") or starts-with(.,"o") or starts-with(.,"u")]
+
+examen
+
+/info/clientes/cliente[@id=/info/cuentas/cuenta[./tipo="cuenta corriente"]/@cliente]/nombre
+
+info/transacciones/transaccion[fecha="2014/08/01" and tipo="deposito"]/@cuenta
+

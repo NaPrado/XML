@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportingEngineRequest xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pepe.xsd">
+    <authRequest>
+        <user>User One</user>
+        <password>SecretPassword</password>
+        <vendor>The Vendor</vendor>
+    </authRequest>
+        <runreportrequest>
+            <reportName>DailyActivityReport</reportName>
+            <reportParam>
+                <paramName>report_date</paramName>
+                <paramValue>2018/09/07</paramValue>
+            </reportParam>
+            <pageSize>50.0</pageSize>
+        </runReportRequest>
+</reportingEngineRequest>
